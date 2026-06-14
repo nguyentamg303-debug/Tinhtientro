@@ -1,3 +1,6 @@
+import streamlit as st
+# Sau đó mới đến đoạn code của bạn:
+st.title("TÍNH TIỀN PHÒNG TRỌ HÀNG THÁNG")
 st.title(" TÍNH TIỀN PHÒNG TRỌ HÀNG THÁNG")
 # Nhập tiền phòng
 A = st.number_input("Nhập số tiền phòng (đồng)", min_value=0.0, value=3000000.0) 
